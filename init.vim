@@ -8,22 +8,14 @@ Plug 'preservim/nerdtree' " Filesystem explorer
 Plug 'ctrlpvim/ctrlp.vim' " File finder
 Plug 'tpope/vim-fugitive' " Advanced git support
 Plug 'markonm/traces.vim' " Immediate change when substituting
-Plug 'morhetz/gruvbox' " gruvbox
 Plug 'joshdick/onedark.vim' " onedark
 Plug 'sheerun/vim-polyglot' " Syntax highlighting
 Plug 'lervag/vimtex' " LaTeX stuff
-Plug 'udalov/kotlin-vim' " Kotlin support
 Plug 'jackguo380/vim-lsp-cxx-highlight' " Semantic highlighting
-Plug 'jupyter-vim/jupyter-vim' " Jupyter
 Plug 'fatih/vim-go' " Go support
 Plug 'jaxbot/semantic-highlight.vim' " Semantic highlighting
 Plug 'sebdah/vim-delve' " Delve support
 Plug 'itchyny/lightline.vim' " Status line
-Plug 'neovimhaskell/haskell-vim' " Haskell syntax highlighting and indentation
-
-" Plug 'OmniSharp/omnisharp-vim' " OmniSharp
-" Plug 'idbrii/vim-unityengine' " Unity
-" Plug 'dense-analysis/ale' " Error-checker
 
 call plug#end() " End of plugin declaration
 
@@ -300,17 +292,12 @@ let g:coc_global_extensions = [
     \ 'coc-vimlsp',
     \ 'coc-html',
     \ 'coc-vimtex',
-    \ 'coc-vetur',
-    \ 'coc-vetur',
     \ 'coc-sh',
     \ 'coc-pyright',
-    \ 'coc-kotlin',
     \ 'coc-json',
     \ 'coc-cmake',
     \ 'coc-clangd',
-    \ '@yaegassy/coc-nginx',
     \ 'coc-omnisharp',
-    \ 'coc-fsharp',
     \ 'coc-go',
 \ ]
 
